@@ -1,0 +1,196 @@
+{
+  "html": {
+    "easy": [
+      { "question": "What does HTML stand for?", "options": ["Hyper Text Markup Language", "High Text Machine Language", "Hyperlinks Text Management Language"], "answer": "Hyper Text Markup Language" },
+      { "question": "Which tag is used for paragraphs?", "options": ["<p>", "<para>", "<paragraph>"], "answer": "<p>" },
+      { "question": "Which tag inserts images?", "options": ["<img>", "<image>", "<pic>"], "answer": "<img>" },
+      { "question": "Which tag creates links?", "options": ["<a>", "<link>", "<href>"], "answer": "<a>" },
+      { "question": "Largest heading tag?", "options": ["<h1>", "<h6>", "<head>"], "answer": "<h1>" },
+      { "question": "Image source attribute?", "options": ["src", "href", "alt"], "answer": "src" },
+      { "question": "Line break tag?", "options": ["<br>", "<lb>", "<break>"], "answer": "<br>" },
+      { "question": "Unordered list tag?", "options": ["<ul>", "<ol>", "<list>"], "answer": "<ul>" },
+      { "question": "Table row tag?", "options": ["<tr>", "<td>", "<th>"], "answer": "<tr>" },
+      { "question": "Metadata tag?", "options": ["<meta>", "<head>", "<title>"], "answer": "<meta>" }
+    ],
+    "medium": [
+      { "question": "HTML5 video tag?", "options": ["<video>", "<media>", "<movie>"], "answer": "<video>" },
+      { "question": "Open link in new tab?", "options": ["target='_blank'", "newtab", "open"], "answer": "target='_blank'" },
+      { "question": "Block grouping tag?", "options": ["<div>", "<span>", "<group>"], "answer": "<div>" },
+      { "question": "Inline container tag?", "options": ["<span>", "<div>", "<p>"], "answer": "<span>" },
+      { "question": "Navigation tag?", "options": ["<nav>", "<menu>", "<header>"], "answer": "<nav>" },
+      { "question": "Footer tag?", "options": ["<footer>", "<bottom>", "<end>"], "answer": "<footer>" },
+      { "question": "Form tag?", "options": ["<form>", "<input>", "<fieldset>"], "answer": "<form>" },
+      { "question": "Checkbox input?", "options": ["type='checkbox'", "type='check'", "type='box'"], "answer": "type='checkbox'" },
+      { "question": "Dropdown tag?", "options": ["<select>", "<dropdown>", "<list>"], "answer": "<select>" },
+      { "question": "Table header cell?", "options": ["<th>", "<td>", "<tr>"], "answer": "<th>" }
+    ],
+    "hard": [
+      { "question": "SVG tag?", "options": ["<svg>", "<canvas>", "<graphic>"], "answer": "<svg>" },
+      { "question": "Semantic section tag?", "options": ["<section>", "<div>", "<box>"], "answer": "<section>" },
+      { "question": "Self-contained content tag?", "options": ["<article>", "<section>", "<aside>"], "answer": "<article>" },
+      { "question": "Side content tag?", "options": ["<aside>", "<footer>", "<section>"], "answer": "<aside>" },
+      { "question": "Task progress tag?", "options": ["<progress>", "<meter>", "<bar>"], "answer": "<progress>" },
+      { "question": "Measurement tag?", "options": ["<meter>", "<progress>", "<range>"], "answer": "<meter>" },
+      { "question": "Canvas drawing tag?", "options": ["<canvas>", "<svg>", "<draw>"], "answer": "<canvas>" },
+      { "question": "Time element?", "options": ["<time>", "<date>", "<clock>"], "answer": "<time>" },
+      { "question": "Figure caption tag?", "options": ["<figcaption>", "<caption>", "<figuretext>"], "answer": "<figcaption>" },
+      { "question": "Template tag?", "options": ["<template>", "<pattern>", "<layout>"], "answer": "<template>" }
+    ]
+  },
+
+  "css": {
+    "easy": [
+      { "question": "CSS stands for?", "options": ["Cascading Style Sheets", "Creative Style Sheets", "Colorful Style Sheets"], "answer": "Cascading Style Sheets" },
+      { "question": "Text color property?", "options": ["color", "font-color", "text-color"], "answer": "color" },
+      { "question": "Background color property?", "options": ["background-color", "bgcolor", "color-bg"], "answer": "background-color" },
+      { "question": "Font size property?", "options": ["font-size", "text-size", "size"], "answer": "font-size" },
+      { "question": "Comment syntax?", "options": ["/* */", "//", "#"], "answer": "/* */" },
+      { "question": "Inline CSS uses?", "options": ["style attribute", "class", "id"], "answer": "style attribute" },
+      { "question": "Class selector symbol?", "options": [".", "#", "*"], "answer": "." },
+      { "question": "ID selector symbol?", "options": ["#", ".", "$"], "answer": "#" },
+      { "question": "Default position?", "options": ["static", "relative", "absolute"], "answer": "static" },
+      { "question": "Box model includes?", "options": ["margin", "padding", "border"], "answer": "margin" }
+    ],
+    "medium": [
+      { "question": "Layout property?", "options": ["display", "layout", "flow"], "answer": "display" },
+      { "question": "Flexbox direction?", "options": ["flex-direction", "flex-flow", "direction"], "answer": "flex-direction" },
+      { "question": "Center with flex?", "options": ["justify-content", "align-items", "both"], "answer": "both" },
+      { "question": "Z-axis control?", "options": ["z-index", "depth", "layer"], "answer": "z-index" },
+      { "question": "Hidden overflow?", "options": ["hidden", "none", "clip"], "answer": "hidden" },
+      { "question": "Relative unit?", "options": ["em", "px", "cm"], "answer": "em" },
+      { "question": "Pseudo-class?", "options": [":hover", "::before", "::after"], "answer": ":hover" },
+      { "question": "Opacity range?", "options": ["0 to 1", "1 to 10", "0 to 100"], "answer": "0 to 1" },
+      { "question": "Grid columns?", "options": ["grid-template-columns", "grid-columns", "columns"], "answer": "grid-template-columns" },
+      { "question": "Fixed position?", "options": ["fixed", "absolute", "relative"], "answer": "fixed" }
+    ],
+    "hard": [
+      { "question": "1D layout?", "options": ["Flexbox", "Grid", "Float"], "answer": "Flexbox" },
+      { "question": "2D layout?", "options": ["Grid", "Flexbox", "Table"], "answer": "Grid" },
+      { "question": "CSS variable syntax?", "options": ["--var", "$var", "@var"], "answer": "--var" },
+      { "question": "Use CSS variable?", "options": ["var()", "use()", "get()"], "answer": "var()" },
+      { "question": "Blend modes?", "options": ["mix-blend-mode", "blend", "overlay"], "answer": "mix-blend-mode" },
+      { "question": "Keyframe animation?", "options": ["@keyframes", "@frames", "@animate"], "answer": "@keyframes" },
+      { "question": "Media query?", "options": ["@media", "@screen", "@device"], "answer": "@media" },
+      { "question": "Aspect ratio?", "options": ["aspect-ratio", "ratio", "scale"], "answer": "aspect-ratio" },
+      { "question": "Clip element?", "options": ["clip-path", "mask", "crop"], "answer": "clip-path" },
+      { "question": "Performance hint?", "options": ["will-change", "optimize", "cache"], "answer": "will-change" }
+    ]
+  },
+
+  "javascript": {
+    "easy": [
+      { "question": "JS stands for?", "options": ["JavaScript", "JavaSource", "JustScript"], "answer": "JavaScript" },
+      { "question": "Variable keyword?", "options": ["var", "int", "string"], "answer": "var" },
+      { "question": "Single-line comment?", "options": ["//", "#", "<!--"], "answer": "//" },
+      { "question": "Alert function?", "options": ["alert()", "msg()", "popup()"], "answer": "alert()" },
+      { "question": "Array brackets?", "options": ["[]", "{}", "()"], "answer": "[]" },
+      { "question": "Object brackets?", "options": ["{}", "[]", "()"], "answer": "{}" },
+      { "question": "Strict equality?", "options": ["===", "==", "="], "answer": "===" },
+      { "question": "Not a number?", "options": ["NaN", "null", "undefined"], "answer": "NaN" },
+      { "question": "Console output?", "options": ["console.log()", "print()", "log()"], "answer": "console.log()" },
+      { "question": "Boolean values?", "options": ["true/false", "1/0", "yes/no"], "answer": "true/false" }
+    ],
+    "medium": [
+      { "question": "JSON to object?", "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()"], "answer": "JSON.parse()" },
+      { "question": "Object to JSON?", "options": ["JSON.stringify()", "JSON.parse()", "JSON.toString()"], "answer": "JSON.stringify()" },
+      { "question": "Arrow function symbol?", "options": ["=>", "->", "::"], "answer": "=>" },
+      { "question": "Default async return?", "options": ["Promise", "Callback", "Object"], "answer": "Promise" },
+      { "question": "Array map returns?", "options": ["new array", "boolean", "number"], "answer": "new array" },
+      { "question": "Hoisting affects?", "options": ["variables", "CSS", "HTML"], "answer": "variables" },
+      { "question": "Event prevent default?", "options": ["preventDefault()", "stop()", "cancel()"], "answer": "preventDefault()" },
+      { "question": "Local storage persists?", "options": ["yes", "no", "session only"], "answer": "yes" },
+      { "question": "Undefined means?", "options": ["not assigned", "empty", "zero"], "answer": "not assigned" },
+      { "question": "NaN type?", "options": ["number", "string", "object"], "answer": "number" }
+    ],
+    "hard": [
+      { "question": "Closure means?", "options": ["function with scope memory", "loop", "callback"], "answer": "function with scope memory" },
+      { "question": "Prototype used for?", "options": ["inheritance", "looping", "binding"], "answer": "inheritance" },
+      { "question": "Event loop handles?", "options": ["async tasks", "DOM", "CSS"], "answer": "async tasks" },
+      { "question": "Microtask queue?", "options": ["Promises", "setTimeout", "DOM"], "answer": "Promises" },
+      { "question": "Bind does?", "options": ["sets this", "calls function", "copies object"], "answer": "sets this" },
+      { "question": "Debouncing used for?", "options": ["performance", "security", "design"], "answer": "performance" },
+      { "question": "Deep copy method?", "options": ["structuredClone", "assign", "spread"], "answer": "structuredClone" },
+      { "question": "Immutable primitive?", "options": ["string", "array", "object"], "answer": "string" },
+      { "question": "Temporal Dead Zone?", "options": ["let/const", "var", "function"], "answer": "let/const" },
+      { "question": "Strict mode keyword?", "options": ["use strict", "strict()", "mode"], "answer": "use strict" }
+    ]
+  },
+
+  "python": {
+    "easy": [
+      { "question": "Python created by?", "options": ["Guido van Rossum", "James Gosling", "Dennis Ritchie"], "answer": "Guido van Rossum" },
+      { "question": "Function keyword?", "options": ["def", "function", "fun"], "answer": "def" },
+      { "question": "Comment symbol?", "options": ["#", "//", "/* */"], "answer": "#" },
+      { "question": "List brackets?", "options": ["[]", "{}", "()"], "answer": "[]" },
+      { "question": "Tuple brackets?", "options": ["()", "[]", "{}"], "answer": "()" },
+      { "question": "Dictionary brackets?", "options": ["{}", "[]", "()"], "answer": "{}" },
+      { "question": "Boolean values?", "options": ["True/False", "true/false", "1/0"], "answer": "True/False" },
+      { "question": "Print output?", "options": ["print()", "echo()", "log()"], "answer": "print()" },
+      { "question": "Indentation used for?", "options": ["blocks", "comments", "loops"], "answer": "blocks" },
+      { "question": "File extension?", "options": [".py", ".pt", ".python"], "answer": ".py" }
+    ],
+    "medium": [
+      { "question": "Immutable type?", "options": ["tuple", "list", "set"], "answer": "tuple" },
+      { "question": "List comprehension?", "options": ["short syntax", "loop", "function"], "answer": "short syntax" },
+      { "question": "Lambda keyword?", "options": ["lambda", "def", "func"], "answer": "lambda" },
+      { "question": "Exception block?", "options": ["try/except", "catch", "error"], "answer": "try/except" },
+      { "question": "Range returns?", "options": ["sequence", "list", "tuple"], "answer": "sequence" },
+      { "question": "Global keyword?", "options": ["global", "extern", "static"], "answer": "global" },
+      { "question": "Copy list?", "options": ["copy()", "clone()", "assign"], "answer": "copy()" },
+      { "question": "Default encoding?", "options": ["UTF-8", "ASCII", "Unicode"], "answer": "UTF-8" },
+      { "question": "Truthy value?", "options": ["non-zero", "zero", "None"], "answer": "non-zero" },
+      { "question": "Enumerate gives?", "options": ["index+value", "value", "key"], "answer": "index+value" }
+    ],
+    "hard": [
+      { "question": "MRO stands for?", "options": ["Method Resolution Order", "Memory Read Only", "Module Reference Object"], "answer": "Method Resolution Order" },
+      { "question": "Decorator syntax?", "options": ["@", "#", "$"], "answer": "@" },
+      { "question": "Generator keyword?", "options": ["yield", "return", "gen"], "answer": "yield" },
+      { "question": "Context manager?", "options": ["with", "open", "using"], "answer": "with" },
+      { "question": "GIL affects?", "options": ["threads", "processes", "memory"], "answer": "threads" },
+      { "question": "Frozen set is?", "options": ["immutable", "mutable", "dynamic"], "answer": "immutable" },
+      { "question": "Slots used for?", "options": ["memory optimization", "speed", "security"], "answer": "memory optimization" },
+      { "question": "Async keyword?", "options": ["async", "await", "both"], "answer": "both" },
+      { "question": "Pickle used for?", "options": ["serialization", "compression", "encryption"], "answer": "serialization" },
+      { "question": "Walrus operator?", "options": [":=", "==", "="], "answer": ":=" }
+    ]
+  },
+
+  "java": {
+    "easy": [
+      { "question": "JVM full form?", "options": ["Java Virtual Machine", "Java Variable Method", "Java Verified Module"], "answer": "Java Virtual Machine" },
+      { "question": "Class keyword?", "options": ["class", "define", "object"], "answer": "class" },
+      { "question": "Entry method?", "options": ["main()", "start()", "init()"], "answer": "main()" },
+      { "question": "Single-line comment?", "options": ["//", "#", "--"], "answer": "//" },
+      { "question": "Object creation?", "options": ["new", "create", "make"], "answer": "new" },
+      { "question": "Inheritance keyword?", "options": ["extends", "implements", "inherits"], "answer": "extends" },
+      { "question": "Loop break?", "options": ["break", "stop", "exit"], "answer": "break" },
+      { "question": "Constant keyword?", "options": ["final", "const", "static"], "answer": "final" },
+      { "question": "Package keyword?", "options": ["package", "import", "namespace"], "answer": "package" },
+      { "question": "Boolean values?", "options": ["true/false", "1/0", "yes/no"], "answer": "true/false" }
+    ],
+    "medium": [
+      { "question": "Interface implementation?", "options": ["implements", "extends", "interface"], "answer": "implements" },
+      { "question": "Parent constructor call?", "options": ["super", "this", "parent"], "answer": "super" },
+      { "question": "Exception handling?", "options": ["try-catch", "throw", "error"], "answer": "try-catch" },
+      { "question": "Throw exception?", "options": ["throw", "throws", "catch"], "answer": "throw" },
+      { "question": "Abstract keyword?", "options": ["abstract", "virtual", "interface"], "answer": "abstract" },
+      { "question": "Static method keyword?", "options": ["static", "final", "const"], "answer": "static" },
+      { "question": "Thread start method?", "options": ["start()", "run()", "init()"], "answer": "start()" },
+      { "question": "Array length?", "options": ["length", "size()", "count"], "answer": "length" },
+      { "question": "Wrapper class?", "options": ["Integer", "int", "Number"], "answer": "Integer" },
+      { "question": "Stop JVM?", "options": ["System.exit()", "exit()", "stop()"], "answer": "System.exit()" }
+    ],
+    "hard": [
+      { "question": "Generic syntax?", "options": ["<>", "{}", "()"], "answer": "<>" },
+      { "question": "Annotation symbol?", "options": ["@", "#", "$"], "answer": "@" },
+      { "question": "Enum keyword?", "options": ["enum", "list", "set"], "answer": "enum" },
+      { "question": "Transient keyword?", "options": ["transient", "volatile", "static"], "answer": "transient" },
+      { "question": "Volatile keyword?", "options": ["volatile", "transient", "dynamic"], "answer": "volatile" },
+      { "question": "Native method?", "options": ["native", "external", "foreign"], "answer": "native" },
+      { "question": "Strict FP?", "options": ["strictfp", "float", "precision"], "answer": "strictfp" },
+      { "question": "Assertion keyword?", "options": ["assert", "check", "verify"], "answer": "assert" },
+      { "question": "Java 9 module?", "options": ["module", "package", "namespace"], "answer": "module" },
+      { "question": "Java 14 record?", "options": ["record", "data", "struct"], "answer": "record" }
+    ]
+  }
+}
